@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nuevo.css">
+</head>
+
+<body class="container-fluid">
+    <header class="encabezado row">
+        <h1 class="titulo">
+            <p class="nombre">CineStream</p>
+            <p class="eslogan">Las mejores peliculas al alcance de un click</p>
+        </h1>
+        
+        <nav class="navs">
+            <div class="padre-a">
+                <a href="#terror" class="a col-1">Terror</a>
+                <a href="#drama" class="a col-1">Drama</a>
+                <a href="#comedia" class="a col-1">Comedia</a>
+                <a href="#accion" class="a col-1">Accion</a>
+                <a href="#romanticas" class="a col-1">Romanticas</a>
+                <a href="#aventura" class="a col-1">Aventura</a>
+                <a href="#ficcion" class="a col-1">Ficcion</a>
+            </div>
+            <!--encabezado de la pagina a menos de 1258px-->
+            <section class="contenedor-div">
+                <button id="categorias">Categorias</button>
+                <ul class="ul-encabezado">
+                    <a href="#terror" class="li-encabezado">Terror</a>
+                    <a href="#drama" class="li-encabezado">Drama</a>
+                    <a href="#comedia" class="li-encabezado">Comedia</a>
+                    <a href="#accion" class="li-encabezado">Accion</a>
+                    <a href="#romanticas" class="li-encabezado">Romanticas</a>
+                    <a href="#aventura" class="li-encabezado">Aventura</a>
+                    <a href="#ficcion" class="li-encabezado">Ficcion</a>
+                </ul>
+                
+            </section>
+            
+
+            <div class="buscar">
+                <input  class="buscador col-4" type="text" id="input-form" placeholder="Buscar...">
+                <button class="button col-1" type="submit"><img class="img_buscador" src="img_buscador/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (1).png" alt=""></button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="row">
+        <article class="row-11" style="max-width: 87.5%;">
+
+            <h1 id="terror" class="category-title">Terror</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-terror" class="contenedor-peliculas">
+                    
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+            <h1 id="drama" class="category-title">Drama</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-drama" class="contenedor-peliculas">
+                    
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+            <h1 id="comedia" class="category-title">Comedia</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-comedia" class="contenedor-peliculas">
+                    
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+            <h1 id="accion" class="category-title">Accion</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-accion" class="contenedor-peliculas">
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+            <h1 id="romanticas" class="category-title">Romanticas</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-romanticas" class="contenedor-peliculas">
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+            <h1 id="aventura" class="category-title">Aventura</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-aventura" class="contenedor-peliculas">
+                    
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+            <h1 id="ficcion" class="category-title">Ficcion</h1>
+            <section class="movie-row">
+                <button class="desplazar-izquierda">⬅</button>
+                <section id="contenedor-ficcion" class="contenedor-peliculas">
+                    
+                </section>
+                <button class="desplazar-derecha">➡</button>
+            </section>
+
+        </article>
+        
+        <aside class="row-1" style="max-width: 12.5%;">
+            <ul class="container">
+                <a class="Inicio row" href="iniciarSesion.html">Iniciar seccion</a>
+                <a class="registrarse row" href="registrarse.html">Registrarse</a>
+
+                <li class="titulo-aside row"><button class="titulo-aside-peliculas" href="#">Peliculas</button></li>
+                <ul class="ul-peliculas row">
+                    <li class="button-aside row"><a class="button-aside row" href="#">Todas las peliculas</a></li>
+                    <li class="button-aside row"><button class="button-aside row" href="#">Ultimos Estrenos</button></li>
+                    <li class="button-aside row"><button class="button-aside row"  href="#">Peliculas populares</button></li>
+                </ul>
+                <li class="titulo-aside row"><button class="titulo-aside-series" href="#">Series</button></li>
+                <ul class="ul-series row">
+                    <li class="button-aside row"><button class="button-aside row"  href="">Todas las series</button></li>
+                    <li class="button-aside row"><button class="button-aside row"  href="">Ultimos Estrenos</button></li>
+                    <li class="button-aside row"><button class="button-aside row"  href="">Series populares</button></li>
+                </ul>
+                <li class="titulo-aside row"><button class="titulo-aside-animes"  href="#">Animes</button></li>
+                <ul class="ul-animes row">
+                    <li class="button-aside row"><button class="button-aside row"  href="#">Todas las Animes</button></li>
+                    <li class="button-aside row"><button class="button-aside row"  href="#">Ultimos Estrenos</button></li>
+                    <li class="button-aside row"><button class="button-aside row"  href="#">Animes populares</button></li>
+                </ul>
+                <li class="titulo-aside row"><button class="titulo-aside-documentales" href="#">Documentales</button></li>
+                <ul class="ul-documentales row">
+                    <li class="button-aside row"><button class="button-aside row" href="#">Todas los Documentales</button></li>
+                    <li class="button-aside row"><button class="button-aside row" href="#">Ultimos Estrenos</button></li>
+                    <li class="button-aside row"><button class="button-aside row" href="#">Documentales populares</button></li>
+                </ul>
+                <li class="titulo-aside row"><button class="titulo-aside-novelas" href="#">Novelas</button></li>
+                <ul class="ul-novelas row">
+                    <li class="button-aside row"><button class="button-aside row" href="#">Todas las Novelas</button></li>
+                    <li class="button-aside row"><button class="button-aside row" href="#">Ultimos Estrenos</button></li>
+                    <li class="button-aside row"><button class="button-aside row" href="#">Novelas populares</button></li>
+                </ul>
+            </ul>
+
+        </aside>
+
+        
+    </main>
+    <footer class="row">
+        <p>©2024CineStream.Todos los derechos reservados.</p>
+        <p href="#">Politica de privacidad</p>
+    </footer>
+
+    <script src="DOM.js" defer></script>
+</body>
+
+
+</html>
